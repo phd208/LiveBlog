@@ -9,4 +9,4 @@ Initial setup involved a react app generated using create-react-app and an expre
 
 Data is shared between services via async communication, focusing on communicating changes using event sent to an even-bus – which provides a certain level of self-sufficiency to each service, making it relatively easy to hangle temporary downtime or new service creation.
 
-All services are packaged up using Docker, inside a kubernetes cluster.
+All services are packaged up using Docker, inside a kubernetes cluster in order to facilitate deployment and scaling.
